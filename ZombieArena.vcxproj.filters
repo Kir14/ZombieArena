@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="graphics">
+      <UniqueIdentifier>{eabd67a5-bcc3-4b0b-9cee-4018ce3a8c15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sound">
+      <UniqueIdentifier>{068a1e8e-6294-4f0f-9b9f-9158a5c53852}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fonts">
+      <UniqueIdentifier>{77d3a6bc-3325-4331-9401-6f8f905621f4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ZombieArena.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="graphics\ammo_icon.png">
+      <Filter>graphics</Filter>
+    </Image>
+    <Image Include="graphics\ammo_pickup.png">
+      <Filter>graphics</Filter>
+    </Image>
+    <Image Include="graphics\background.png">
+      <Filter>graphics</Filter>
+    </Image>
+    <Image Include="graphics\background_sheet.png">
+      <Filter>graphics</Filter>
+    </Image>
+    <Image Include="graphics\bloater.png">
+      <Filter>graphics</Filter>
+    </Image>
+    <Image Include="graphics\blood.png">
+      <Filter>graphics</Filter>
+    </Image>
+    <Image Include="graphics\chaser.png">
+      <Filter>graphics</Filter>
+    </Image>
+    <Image Include="graphics\crawler.png">
+      <Filter>graphics</Filter>
+    </Image>
+    <Image Include="graphics\crosshair.png">
+      <Filter>graphics</Filter>
+    </Image>
+    <Image Include="graphics\health_pickup.png">
+      <Filter>graphics</Filter>
+    </Image>
+    <Image Include="graphics\player.png">
+      <Filter>graphics</Filter>
+    </Image>
+    <Image Include="graphics\sample.png">
+      <Filter>graphics</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="sound\hit.wav">
+      <Filter>sound</Filter>
+    </Media>
+    <Media Include="sound\pickup.wav">
+      <Filter>sound</Filter>
+    </Media>
+    <Media Include="sound\powerup.wav">
+      <Filter>sound</Filter>
+    </Media>
+    <Media Include="sound\reload.wav">
+      <Filter>sound</Filter>
+    </Media>
+    <Media Include="sound\reload_failed.wav">
+      <Filter>sound</Filter>
+    </Media>
+    <Media Include="sound\shoot.wav">
+      <Filter>sound</Filter>
+    </Media>
+    <Media Include="sound\splat.wav">
+      <Filter>sound</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="fonts\zombiecontrol.ttf">
+      <Filter>fonts</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
