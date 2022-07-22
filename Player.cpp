@@ -8,7 +8,7 @@ Player::Player()
 
 	//Associate a taxture with the sprite
 	// !! Watch this space!!
-	m_Texture.loadFromFile("graphics/palyer.png");
+	m_Texture.loadFromFile("graphics/player.png");
 	m_Sprite.setTexture(m_Texture);
 
 	//Set the original of the sprite to the center,
